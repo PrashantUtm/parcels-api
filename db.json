@@ -27,5 +27,31 @@
             "price": 5400.00,
             "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Cupboard_%28Beeldenkast%29_MET_DP105750.jpg"
         }
+    ],
+    "deliveries": [
+        {
+            "id": "1",
+            "date": "2022-05-28",
+            "parcels": [ 1, 2 ],
+            "customer": {
+                "id": 1,
+                "name": "John Doe",
+                "address": "7, This Street, City",
+                "phoneNumber": "+230 5 777 6666"
+            },
+            "isDelivered": false
+        },
+        {
+            "id": "2",
+            "date": "2022-05-28",
+            "parcels": [ 3, 4 ],
+            "customer": {
+                "id": 2,
+                "name": "Lisa Johnson",
+                "address": "8, North Road, The Village",
+                "phoneNumber": "+230 5 777 8888"
+            },
+            "isDelivered": false
+        }
     ]
 }
